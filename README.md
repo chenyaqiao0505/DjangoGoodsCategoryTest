@@ -1,0 +1,2 @@
+# DjangoGoodsCategoryTest
+学习djangorestframework 的一点一滴
