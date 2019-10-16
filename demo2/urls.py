@@ -2,6 +2,7 @@ from django.contrib import admin
 from django.urls import path
 from app01.views import Type1View,Type2View,Type3View,Type4View,TypeView
 from datetime import datetime
+import json
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/Type1',Type1View.as_view()),
