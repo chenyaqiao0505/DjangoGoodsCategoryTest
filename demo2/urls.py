@@ -1,6 +1,5 @@
 from django.contrib import admin
 from django.urls import path
-#引入视图类
 from app01.views import Type1View,Type2View,Type3View,Type4View,TypeView
 
 urlpatterns = [
